@@ -22,6 +22,24 @@ body{
     overflow: hidden;
 }
 
+.v {
+    position: absolute;
+    left:700px;
+    bottom: 500px;    
+}
+
+.v1 {
+    position: absolute;
+    left:700px;
+    bottom: 400px;    
+}
+
+.v2 {
+    position: absolute;
+    left:700px;
+    bottom: 300px;    
+}
+
 .v6_4 {
     width: 662px;
     height: 58px;
@@ -94,7 +112,7 @@ body{
 }
 
 .v5_6 {
-    width: 241px;
+    width: 482px;
     height: 435px;
     background: url("./images/Upper body white.png");
     background-repeat: no-repeat;
@@ -156,6 +174,7 @@ body{
     overflow: hidden;
     cursor: pointer;
 }
+
 
 
 
