@@ -70,6 +70,7 @@ body{
     top: 210px;
     left: 309px;
     overflow: hidden;
+    margin: 0px;
 }
 
 .v5_3 {
@@ -88,10 +89,12 @@ body{
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     overflow: hidden;
+    display: inline-block;
+    margin:0px;
 }
 
 .v5_6 {
-    width: 482px;
+    width: 241px;
     height: 435px;
     background: url("./images/Upper body white.png");
     background-repeat: no-repeat;
@@ -102,12 +105,57 @@ body{
     top: 94px;
     left: 276px;
     overflow: hidden;
+    margin: 0px;
 }
 
-.v5_6: hover {
-    
+.v5_6:hover{
+    width: 482px;
+    height: 435px;
+    background: url("./images/upper\ body\ separate.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position:absolute;
+    top: 94px;
+    left: 276px;
+    overflow: hidden;
+    cursor: pointer;
 }
 
+.v5_5:hover {
+    width: 416px;
+    height: 482px;
+    background: url("./images/lower\ body\ separated.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 210px;
+    left: 309px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.v5_3:hover {
+    width: 396px;
+    height: 491px;
+    background: url("./images/core\ separated.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 129px;
+    left: 325px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
 
 
 
