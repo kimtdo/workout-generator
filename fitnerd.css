@@ -138,7 +138,6 @@ body{
     top: 94px;
     left: 276px;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .v5_5:hover {
@@ -153,7 +152,6 @@ body{
     top: 210px;
     left: 309px;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .v5_3:hover {
@@ -172,7 +170,6 @@ body{
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     overflow: hidden;
-    cursor: pointer;
 }
 
 
