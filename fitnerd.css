@@ -1,32 +1,17 @@
-/* * {
+*{
     overflow-x: hidden;
     padding: 0px !important;
     margin: 0px !important;
-  }
-  .v1_6 {
-    width: 100%;
-    height: 683px;
-    background: rgba(98,209,244,1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-  }
-  .v1_4 {
-    width: 645px;
-    height: 314px;
-    background: rgba(234,215,145,1);
-    opacity: 1;
-    position: absolute;
-    top: 33px;
-    left: 339px;
-    border: 0px solid rgba(0,0,0,1);
-  }
-  .v2_2 {
+}
+  
+body{
+    background-color: rgba(98,209,244,1);
+}
+  
+.v2_2 {
     width: 173px;
     height: 166px;
-    background: url("../images/v2_2.png");
+    background: url("./images/Hackathon Logo 2.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -35,25 +20,94 @@
     top: 0px;
     left: 8px;
     overflow: hidden;
-  }
-  .v1_3 {
-    width: 480px;
-    height: 423px;
-    background: url("../images/v1_3.png");
+}
+
+.v6_4 {
+    width: 662px;
+    height: 58px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 72px;
+    left: 291px;
+    overflow: hidden;
+}
+
+.v6_3 {
+    width: 662px;
+    height: 57px;
+    background: rgba(234,215,145,1);
+    opacity: 1;
+    position: absolute;
+    top: 61px;
+    left: 277px;
+    border: 2px solid rgba(0,0,0,1);
+    overflow: hidden;
+}
+
+.v5_4 {
+    width: 577px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 68px;
+    left: 320px;
+    font-family: Gothic A1;
+    font-weight: Bold;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v5_5 {
+    width: 416px;
+    height: 482px;
+    background: url("./images/lower body white.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 187px;
-    left: 235px;
+    top: 210px;
+    left: 309px;
     overflow: hidden;
-  } */
+}
+
+.v5_3 {
+    width: 396px;
+    height: 491px;
+    background: url("./images/core white.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 129px;
+    left: 325px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+}
+
+.v5_6 {
+    width: 482px;
+    height: 435px;
+    background: url("./images/Upper body white.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 94px;
+    left: 276px;
+    overflow: hidden;
+}
+
+.v5_6: hover {
+    
+}
 
 
 
-  .v5_6: hover{
-    background: url("./images/upper body separate.png"); 
-  }
 
-  .
