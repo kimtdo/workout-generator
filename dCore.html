@@ -2,10 +2,41 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>Abs Workouts</title>
+  <title>Core Workouts</title>
+  <style>
+  body{
+    background-color: rgba(98,209,244,1);
+  }
+  p{
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    color: white;
+  }
+  .v2_2 {
+  width: 173px;
+  height: 166px;
+  background: url("./images/Hackathon Logo 2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  overflow: hidden;
+}
+
+iframe{
+  position: absolute;
+  left: 35%;
+}
+  </style>
 </head>
 <body>
-  <p> Here are your generated ABS workouts!</p>
+  <div class="v2_2"></div>
+  <h1> Here are your generated CORE workouts!</h1>
   <p id = "m1"></p>
   <p id = "m2"></p>
   <p id = "m3"></p>
@@ -45,5 +76,8 @@
     document.getElementById("m9").innerHTML = "Lateral Pullldowns (3 sets of 10)";
     document.getElementById("m10").innerHTML = "Lateral Raises (2 sets of 15)";
   </script>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/UpGccRvOc88" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+  </iframe>
 </body>
 </html>
