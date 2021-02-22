@@ -54,6 +54,7 @@ iframe{
   <p id = "m9"></p>
   <p id = "m10"></p>
   <script>
+    
     var array = [];
     var xmlhttp;
     if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
@@ -69,8 +70,8 @@ iframe{
         }
     }
     xmlhttp.open("GET", "upperbody.txt", true);
-    xmlhttp.send();
-
+    xmlhttp.send(); 
+    
     document.getElementById("m1").innerHTML = "Pushups (3 sets of 15)";
     document.getElementById("m2").innerHTML = "Bench Press (3 sets of 10)";
     document.getElementById("m3").innerHTML = "Incline Flye (3 sets of 8)";
